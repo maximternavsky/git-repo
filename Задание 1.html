@@ -1,0 +1,17 @@
+<meta charset = "utf-8">
+<script>
+	var a = 60.75; //Course Dollar
+	var b = 69.3;  //Course Euro
+	var x = [];
+
+
+	x[0] = +prompt("Введите сумму в рублях:");
+	if(!isNaN(x[0])){
+		x[1] = x[0] / a;
+		x[0] = x[0] / b;
+
+		alert("Ваша сумма в долларах равна: " + x[1].toFixed(2) + "\nВаша сумма в евро равна: " + x[0].toFixed(2));
+	} else {
+		alert("Введеные Вами данные не являются числом.")
+	}
+</script>
