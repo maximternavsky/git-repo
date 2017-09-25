@@ -1,8 +1,5 @@
 package com.example.ru.myapplication;
 
-import android.graphics.Canvas;
-import android.graphics.Paint;
-
 import java.util.ArrayList;
 
 /**
@@ -64,7 +61,38 @@ public class GameManager {
 
     public void onTouchEvent(int x, int y) {
         mainCircle.moveMainCircleWhenTouchAt(x, y);
+        checkCollusion();
         moveCircles();
+    }
+
+    private void checkCollusion() {
+        SimpleCircle circleForDel = null;
+        for (EnemyCircle circle : circles) {
+            if (mainCircle.isIntersect(circle)) {
+                if (circle.isSmallerThan(mainCircle)) {
+                    mainCircle.growRadius(circle);
+                    circleForDel = circle;
+                    calculateAndSetCircleColor();
+                    break;
+                } else {
+                    gameEnd("YOU LOSE!");
+                    return;
+                }
+            }
+        }
+        if (circleForDel != null) {
+            circles.remove(circleForDel);
+        }
+        if (circles.isEmpty()) {
+            gameEnd("YOU WIN!");
+        }
+    }
+
+    private void gameEnd(String text) {
+        canvasView.showMessage(text);
+        mainCircle.initRadius();
+        initEnemyCircles();
+        canvasView.redraw();
     }
 
     private void moveCircles() {
