@@ -3,4 +3,10 @@
     <string name="hello_world">Hello World!</string>
     <string name="button">BUTTON</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="button_1">Кнопка 1</string>
+    <string name="button_2">Кнопка 2</string>
+    <string name="button_3">Кнопка 3</string>
+    <string name="button2">Нажата кнопка 2</string>
+    <string name="button1">Нажата кнопка 1</string>
+    <string name="button3">Нажата кнопка 3</string>
 </resources>
