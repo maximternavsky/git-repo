@@ -21,14 +21,9 @@ public class MainActivity extends AppCompatActivity {
     private TextView textView;
     private EditText editText;
     private Button button1;
-    private String string = "hello world";
-    String[] split;
-    String p;
-    MyTask myTask;
-
-    public void setString (String str) {
-        string = str;
-    }
+    private String string = "";
+    private String langString = "";
+    private MyTask myTask;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,25 +34,20 @@ public class MainActivity extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.editText);
         button1 = (Button) findViewById(R.id.button1);
 
-        split = string.split(", ");
-
-
         View.OnClickListener onClickListener = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 switch (view.getId()) {
                     case R.id.button1:
+                        string = editText.getText().toString();
                         myTask = new MyTask();
                         myTask.execute();
                         break;
                 }
             }
         };
-
-
         button1.setOnClickListener(onClickListener);
     }
-
 
 
     public class MyTask extends AsyncTask<Void, Void, Void> {
@@ -91,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 // Get the response
                 BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                 while ((line = rd.readLine()) != null) {
-                    p = line;
+                    langString = line;
                 }
                 wr.close();
                 rd.close();
@@ -103,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
-            textView.setText(p);
+            textView.setText(langString);
         }
     }
 
