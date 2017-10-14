@@ -16,6 +16,19 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import retrofit.Call;
+import retrofit.GsonConverterFactory;
+import retrofit.Response;
+import retrofit.Retrofit;
+
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -24,9 +37,21 @@ public class MainActivity extends AppCompatActivity
     private Spinner spinner;
     private String string = "";
     private String langString = "";
-    private PostRequest postRequest;
+   // private PostRequest postRequest;
     private MainActivity mainActivity = this;
     private int selectedSpinner;
+
+    private final String URL = "https://translate.yandex.net";
+    private final String KEY = "trnsl.1.1.20171003T125746Z.d9d155d60493b199.680f5b1d70acf9618012a2f7c31f40cee1cce4f6";
+
+    private Gson gson = new GsonBuilder().create();
+
+    private Retrofit retrofit = new Retrofit.Builder()
+            .addConverterFactory(GsonConverterFactory.create(gson))
+            .baseUrl(URL)
+            .build();
+
+    private YandexAPI intrfs = retrofit.create(YandexAPI.class);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,11 +68,37 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                string = editText.getText().toString();
-                postRequest = new PostRequest(mainActivity);
-                postRequest.execute();
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Map<String, String> mapJson = new HashMap<String, String>();
+                mapJson.put("key", KEY);
+                mapJson.put("text", editText.getText().toString());
+                mapJson.put("lang", "ru-en");
+
+                Call<Object> call = intrfs.translate(mapJson);
+
+                try {
+                    Response<Object> response = call.execute();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+//                try {
+//                    Response<Object> response = call.execute();
+//
+//                    Map<String, String> map = gson.fromJson(response.body().toString(), Map.class);
+//
+//                    for (Map.Entry e : map.entrySet()) {
+//                        if(e.getKey().equals("text")){
+//                            textView.setText(e.getValue().toString());
+//                        }
+//                    }
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+                //                string = editText.getText().toString();
+//                postRequest = new PostRequest(mainActivity);
+//                postRequest.execute();
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
             }
         });
 
