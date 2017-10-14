@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Переводчик</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="button_translate">Перевести</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string-array name="translate_language">
+        <item>на Английский</item>
+        <item>на Русский</item>
+    </string-array>
+    <string name="enter_text">Введите текст:</string>
+    <string name="translation">Перевод:</string>
+</resources>
