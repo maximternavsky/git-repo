@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.maximternavsky.otzovik_4.MainActivity">
+    <item
+        android:icon="@drawable/search"
+        android:id="@+id/action_search"
+        android:orderInCategory="1"
+        android:title="@string/action_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:icon="@drawable/sort"
+        android:id="@+id/action_sort"
+        android:orderInCategory="3"
+        android:title="@string/action_sort"
+        app:showAsAction="always|collapseActionView" />
+    <item
+        android:icon="@drawable/add_place"
+        android:id="@+id/add_place"
+        android:orderInCategory="2"
+        android:title="@string/add_place"
+        app:showAsAction="always|collapseActionView" />
+
+
+</menu>

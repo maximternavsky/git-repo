@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\8b1e629db69d60482bd6065f3fd6046f5826a8a0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\classes_ea18e10a76916b2a8af03e288bdd758ac174cacd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\5a5d7abafd4dd4aed57df81edb27847ea85a2bec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\classes_c7a031e3df5b6dd3e9a360535c04e61505bc57f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\af6661b282cd98446d3f78cbc473bcf9e0992682\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\classes_2d544cf80be6db067d56506b2a48d617103060dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\bd8d112eb94bef882de17213b6a780cc71a70c92\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\classes_26667be9178c656f1af0aeb2535ba63275062deb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\ff4f8fa5e5674bd7bb32931fa2cd230f4fc39bbc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\classes_b4d4f9bc49121ab3986621de3faab89bab2f5566.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\d02af5b315ee3b33149a53f77cff6ccc25dca84d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\classes_d2a58581436b9ee20ae72efce0418751e959d380.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\retrofit-2.3.0_53dcc22df4d6f421577c80fdd1f26f5bf725662a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\converter-gson-2.3.0_9e52168f15a768a3df667c59a2cf198a83cd72f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\okio-1.13.0_b45c910f059b6fbe8a5c1c6ca5ef59a8021138c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_dce0f5dc4ec87302d879250c45fe5f3f72f02917.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\okhttp-3.8.0_8c364a1fbc2e412f9dabebcf137f2b63321ebd20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\f64203c64c6f8cdb22c40e10d1f1ad236ee7a7f5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\classes_f29aa32172a6ad445c7c89409c8531436e225db9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\3d7007d6c4971b56f8a0350863603dc8e8d5cac9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\classes_f15567f2d905572989c7eb6f2a1a272ba4ee794c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_6b7bdd64075f27ac794055998accebfc57200291.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\ff8b80eb63ab778a034e6fb68dd4172cd1daed1f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\classes_dcbe759ec9afd18465655c39ea9c832ac5525e1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\gson-2.7_ab90be57bd2bdf70ed41bd3c4b6763f45c58d3b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\03b834db1c4efc7cec278f354a0500738e3fab33\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\GitHub\Android_Projects\Retrofit\app\build\intermediates\pre-dexed\debug\classes_48a4f270205295291757c4b4b21753b88c115466.jar" />
+    </item>
+
+</items>
