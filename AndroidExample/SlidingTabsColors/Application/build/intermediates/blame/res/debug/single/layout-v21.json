@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\GitHub\\AndroidExample\\SlidingTabsColors\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Максим\\.android\\build-cache\\bbed6bdf9c2102f2ced8db4e233584163539e8e8\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\GitHub\\AndroidExample\\SlidingTabsColors\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Максим\\.android\\build-cache\\bbed6bdf9c2102f2ced8db4e233584163539e8e8\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\GitHub\\AndroidExample\\SlidingTabsColors\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Максим\\.android\\build-cache\\bbed6bdf9c2102f2ced8db4e233584163539e8e8\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\GitHub\\AndroidExample\\SlidingTabsColors\\Application\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Максим\\.android\\build-cache\\bbed6bdf9c2102f2ced8db4e233584163539e8e8\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

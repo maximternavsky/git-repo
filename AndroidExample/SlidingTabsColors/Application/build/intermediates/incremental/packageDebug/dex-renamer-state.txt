@@ -1,0 +1,4 @@
+#Sat Oct 28 12:48:32 EAT 2017
+base.0=C\:\\GitHub\\AndroidExample\\SlidingTabsColors\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\GitHub\\AndroidExample\\SlidingTabsColors\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

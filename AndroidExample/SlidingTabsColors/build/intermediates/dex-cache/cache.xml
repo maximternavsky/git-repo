@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\a0fb971d6a94ee81665e23119ff48012f671a758\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes_2e721857e180a27eeece17ab4251fbde3eb52924.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\common-1.0.0_03eec5bc3d8413a197a85c7aed92dd6abecb9833.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\49141d419eae39e3c1aea622c1b0329bffcc2a95\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes_465088991f2e8f9e6db729747725ed89915c0b1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\0115108cc5d87df4881623f92ca4f6cea5dd6663\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="80d9ff49e99ff481062ea190b43e8d6bdffd4ddc">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes_797261c4cc689c035dd40e902d5831e56c0d7835.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\5f2fc39fa31c259cde9a24ec738acc56ac0c7866\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes_83c0cdbfd4aacbc928cc4b429294790b82add7da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\8d6ffd91ec7c4a6287e2401807a88a5eedfa01c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b4d6fbbb48b42dd03fd9c5a09b3b7a53266df6ed">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes_5d9ffb6635f0c6961d415d1c9c412dad85dbe138.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\4d5a821ff7d0e533ec9d195c5cc9ee9ace98e41e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes_73a43999d6ebd4f9dca693e46384e4b88a29a798.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\d31155022e7699f06b3f55a0f90660889ebac87b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes_b736c740c213179fb9451458f27953e2a7b59697.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_827dc641f4083374e3072897c65061087b931359.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\65cefa3f897e42b785b407de265a3eec0d5e0c30\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes_02eb30bbfa11137505100d10aaa608cb30c24b43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\b84cef9de9f5d569a8d5186c29e8832d4cf6b63b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes_742332fb4e363fe85238ebd35f28c22b67a9c4df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\common-1.0.0_2084bc982cd93066c2e09554fc793ee9265148ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\9f3533c9c47f87fb5ab23bc989810e6ee8f3099b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes_e08542cda2ac4d9bdd0efd094ead0ee6fea72053.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\bbed6bdf9c2102f2ced8db4e233584163539e8e8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes_d712d8ba4fd0879c9507ab73058b4ff2935b0393.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Максим\.android\build-cache\5a01583148cf916c233d14c1e79cda9d16a75c9b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="C:\GitHub\AndroidExample\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes_35fd4755ecce87a5d2404c5b33509c0728cc5c61.jar" />
+    </item>
+
+</items>
