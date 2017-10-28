@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TabHost;
 
 public class Intro extends AppCompatActivity {
 
@@ -18,23 +19,33 @@ public class Intro extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Intro.this, NewPlace.class);
-                startActivity(intent);
-            }
-        });
+        setTabLayout();
+    }
 
-        Button button = (Button) findViewById(R.id.buttonIntroList);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Intro.this, MainActivity.class);
-                startActivity(intent);
-            }
-        });
+    private void setTabLayout() {
+        setTitle("TabHost");
+
+        TabHost tabHost = (TabHost) findViewById(R.id.tabHost);
+
+        tabHost.setup();
+
+        TabHost.TabSpec tabSpec = tabHost.newTabSpec("tag1");
+
+        tabSpec.setContent(R.id.linearLayout);
+        tabSpec.setIndicator("Отзывы");
+        tabHost.addTab(tabSpec);
+
+        tabSpec = tabHost.newTabSpec("tag2");
+        tabSpec.setContent(R.id.linearLayout2);
+        tabSpec.setIndicator("Избранное");
+        tabHost.addTab(tabSpec);
+
+        tabSpec = tabHost.newTabSpec("tag3");
+        tabSpec.setContent(R.id.linearLayout3);
+        tabSpec.setIndicator("Мой кабинет");
+        tabHost.addTab(tabSpec);
+
+        tabHost.setCurrentTab(0);
     }
 
 }
