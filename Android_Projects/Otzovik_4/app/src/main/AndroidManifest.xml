@@ -34,7 +34,9 @@
         <activity
             android:name=".NewPlace"
             android:label="@string/title_activity_new_place"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"></activity>
     </application>
 
 </manifest>

@@ -7,8 +7,6 @@
     tools:context="com.maximternavsky.otzovik_4.Intro"
     android:background="@color/colorBackground">
 
-
-
     <include layout="@layout/content_intro" />
 
     <android.support.design.widget.FloatingActionButton
@@ -17,6 +15,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@drawable/tune_float_button" />
+        app:srcCompat="@drawable/add_place_white" />
 
 </android.support.design.widget.CoordinatorLayout>

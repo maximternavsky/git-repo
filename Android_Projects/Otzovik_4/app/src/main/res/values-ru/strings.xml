@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Отзовик</string>
+    <string name="action_rate">Рейтинг</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_share">Поделиться</string>
+    <string name="action_sort">Сортировка</string>
+    <string name="add_place">Добавить место</string>
+    <string name="all_places_button">Все места</string>
+    <string name="beauty_salons_button">Салоны красоты</string>
+    <string name="cafes_button">Кафе</string>
+    <string name="cinemas_button">Кинотеатры</string>
+    <string name="circuses_button">Цирки</string>
+    <string name="museums_button">Музеи</string>
+    <string name="night_clubs_button">Ночные клубы</string>
+    <string name="parks_button">Парки</string>
+    <string name="zoos_button">Зоопарки</string>
+    <string name="title_activity_tune">Подбор по параметрам</string>
+    <string name="title_activity_place_description">Описание места</string>
+    <string name="title_activity_new_place">Новое место</string>
+    <string name="theatres_button">Театры</string>
+    <string name="shopping_and_entertainment_centers_button">Торгово развлекательные центры</string>
+
+    <string-array name="city_list">
+        <item>Москва</item>
+        <item>С. Петербург</item>
+        <item>Краснодар</item>
+        <item>Ростов-на-Дону</item>
+        <item>Чита</item>
+        <item>Париж</item>
+    </string-array>
+</resources>

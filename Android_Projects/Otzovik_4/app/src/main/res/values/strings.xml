@@ -82,4 +82,24 @@
     <string name="title_activity_intro">Intro</string>
     <string name="title_activity_new_place">NewPlace</string>
     <string name="add_place">Add Place</string>
+    <string name="all_places_button">All places</string>
+    <string name="parks_button">Parks</string>
+    <string name="cinemas_button">Cinemas</string>
+    <string name="cafes_button">Cafes</string>
+    <string name="zoos_button">Zoos</string>
+    <string name="museums_button">Museums</string>
+    <string name="theatres_button">Theatres</string>
+    <string name="beauty_salons_button">Beauty salons</string>
+    <string name="shopping_and_entertainment_centers_button">Shopping and entertainment centers</string>
+    <string name="circuses_button">Circuses</string>
+    <string name="night_clubs_button">Night clubs</string>
+
+    <string-array name="city_list">
+        <item>Moscov</item>
+        <item>S. Peterburg</item>
+        <item>Krasnodar</item>
+        <item>Rostov-on-Don</item>
+        <item>Astrahan</item>
+        <item>Paris</item>
+    </string-array>
 </resources>
